@@ -10,7 +10,7 @@ import (
 func main() {
 	ch := make(chan int)
 	var IP string
-	fmt.Printf("enter ip address :")
+	fmt.Printf("enter ip address here:")
 	fmt.Scan(&IP)
 
 	//        For most vunurable ports
